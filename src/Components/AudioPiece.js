@@ -1,5 +1,3 @@
-
-
 const AudioPiece = ({ title, audio, index }) => {
     return (
         <div className="audio-piece">

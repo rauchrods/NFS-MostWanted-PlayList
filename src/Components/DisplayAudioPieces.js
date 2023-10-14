@@ -3,6 +3,8 @@ import hush from '../../src/Assets/Hush-FiredUp.m4a';
 import rock from '../../src/Assets/Rock.m4a';
 import styles from '../../src/Assets/Styles of Beyond.mp3';
 import celldweller from '../../src/Assets/Celldweller feat. Styles of Beyond.mp3';
+import TiP$C from '../../src/Assets/TI presents The P$C - Da Ya Thang.mp3';
+import suniclay from '../../src/Assets/Suni Clay - In a Hood Near You.mp3';
 
 const audios = [
     {
@@ -21,10 +23,14 @@ const audios = [
         name: "Celldweller feat. Styles of Beyond",
         audio: celldweller
     },
-    // {
-    //     name: "TI presents The P$C - Da Ya Thang",
-    //     audio: hush
-    // }
+    {
+        name: "TI presents The P$C - Da Ya Thang",
+        audio: TiP$C
+    },
+    {
+        name: "Suni Clay - In a Hood Near You",
+        audio: suniclay
+    }
 ]
 
 const DisplayAudioPieces = () => {
@@ -37,6 +43,7 @@ const DisplayAudioPieces = () => {
                 })
             }
 
+            <p>Made with ❤️ by Rauch Rodrigues</p>
         </div>
 
     )
