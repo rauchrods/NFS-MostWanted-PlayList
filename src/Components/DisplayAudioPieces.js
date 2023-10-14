@@ -1,6 +1,9 @@
 import AudioPiece from "./AudioPiece";
 import hush from '../../src/Assets/Hush-FiredUp.m4a';
 import rock from '../../src/Assets/Rock.m4a';
+import styles from '../../src/Assets/Styles of Beyond.mp3';
+import celldweller from '../../src/Assets/Celldweller feat. Styles of Beyond.mp3';
+
 const audios = [
     {
         name: "Hush- Fired Up",
@@ -11,17 +14,17 @@ const audios = [
         audio: rock
     },
     {
-        name: "Stratus - You must follow",
-        audio: hush
+        name: "Styles of Beyond - Nine Thou",
+        audio: styles
     },
     {
-        name: "Styles of Beyond",
-        audio: hush
+        name: "Celldweller feat. Styles of Beyond",
+        audio: celldweller
     },
-    {
-        name: "TI presents The P$C - Da Ya Thang",
-        audio: hush
-    }
+    // {
+    //     name: "TI presents The P$C - Da Ya Thang",
+    //     audio: hush
+    // }
 ]
 
 const DisplayAudioPieces = () => {
