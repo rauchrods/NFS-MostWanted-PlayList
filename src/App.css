@@ -11,25 +11,41 @@ body {
   padding: 20px;
   display: flex;
   flex-direction: column;
+  row-gap: 30px;
   align-items: center;
-  row-gap: 15px;
 
+}
+
+.audio-lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 0;
 }
 
 .audio-piece {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  row-gap: 10px;
+  align-items: center;
   width: 300px;
+  height: 50px;
   padding: 15px 20px;
   border-radius: 20px;
   background-color: #c0bd7f;
   /* <length> | <length> | <length> | <length> | <color> */
   box-shadow: 4px 4px 4px 2px #9c9970;
+  cursor: pointer;
 }
 
 .audio-piece span {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.audio-player {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
 }

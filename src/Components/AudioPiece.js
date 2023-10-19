@@ -1,8 +1,15 @@
-const AudioPiece = ({ title, audio, index }) => {
+const AudioPiece = ({ title, audio, index, setCurrentAudio }) => {
+
+    const setaudioHandler = async () => {
+
+        await setCurrentAudio(audio);
+
+        document.querySelector('audio').play();
+    }
+
     return (
-        <div className="audio-piece">
+        <div className="audio-piece" onClick={setaudioHandler}>
             <span>{index}: {title}</span>
-            <audio src={audio} controls autoPlay></audio>
         </div>
 
     )
