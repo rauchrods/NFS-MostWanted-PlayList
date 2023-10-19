@@ -54,6 +54,7 @@ const DisplayAudioPieces = () => {
 
             <MyAudio curraudio={curraudio} />
             <p>Made with ❤️ by Rauch Rodrigues</p>
+            <a href="https://github.com/rauchrods/NFS-MostWanted-PlayList">You can find the source code in here</a>
         </div>
 
     )

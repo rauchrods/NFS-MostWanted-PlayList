@@ -49,3 +49,11 @@ body {
   display: flex;
   justify-content: center;
 }
+
+a {
+  color: #9c9970;
+}
+
+a:hover {
+  color: blue;
+}
